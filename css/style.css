@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 20px 100px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.btn{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border: solid;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+#orange{
+    background-color: orange;
+}
+#pink{
+    background-color: pink;
+}
+#yellow{
+    background-color: yellow;
+}
+#white{
+    background-color: white;
+}
+#black{
+    background-color: black;
+}

@@ -5,50 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background change</title>
-    <style>
-        body{
-            margin: 0;
-            padding: 20px 100px;
-        }
-        h1{
-            text-align: center;
-            text-decoration: underline;
-        }
-        img{
-            width: 100%;
-            height: auto;
-            margin: 0 auto;
-        }
-        p{
-            font-size: 20px;
-            text-align: justify;
-        }
-
-        .btn{
-            width: 25px;
-            height: 25px;
-            display: inline-block;
-            border: solid;
-            border-radius: 50%;
-            cursor: pointer;
-
-        }
-        #orange{
-            background-color: orange;
-        }
-        #pink{
-            background-color: pink;
-        }
-        #yellow{
-            background-color: yellow;
-        }
-        #white{
-            background-color: white;
-        }
-        #black{
-            background-color: black;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div id="color-change">
@@ -58,27 +15,8 @@
       <span class="btn" id="white" onclick="colorchnage('#ffffff')"></span>
       <span class="btn" id="black" onclick="colorchnage('#000000')"></span>
     </div>
- <!-- <h1 class="text">Home page</h1>
- <img src="img/002.png" class="text" alt="">
- <p class="text">
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem accusantium, animi magni veritatis reprehenderit rerum repellendus veniam sint, quaerat minus, libero distinctio! Nostrum dolore incidunt esse, reprehenderit, quo dignissimos quod illo alias ut voluptates soluta repellendus, unde aut. Sequi suscipit quas distinctio! Facilis impedit numquam fugiat libero optio quaerat harum aspernatur labore, nobis odit reiciendis! A placeat, fugit amet veritatis aspernatur voluptatum quos, suscipit ratione tenetur at numquam rerum perspiciatis! Nobis vel dolore consectetur! Impedit ex, odit ab expedita molestiae ratione inventore repellat possimus. Molestias quae, magni cumque quisquam culpa tenetur. Possimus alias facere tenetur voluptatem magnam impedit saepe? Ea quisquam inventore voluptas molestias, obcaecati deserunt eaque hic distinctio quidem sed ab corrupti harum quo! Placeat voluptatum voluptate accusamus explicabo vero expedita mollitia rem accusantium, aut asperiores possimus adipisci sequi sit impedit tenetur deleniti reiciendis excepturi quidem dolore optio doloribus modi nam? Recusandae deserunt quia molestiae aut officia vitae inventore, reprehenderit saepe deleniti facere explicabo minus quasi nemo exercitationem dolorum pariatur a facilis dolor odit molestias dolores doloremque rem provident ipsam! Numquam omnis eos similique culpa alias rem soluta consectetur, excepturi repellendus nam. Rem, facilis vero soluta expedita et enim, assumenda magni totam dignissimos optio id dolore ducimus, sed ipsa.
- </p> -->
 
- <script>
-     function colorchnage(color){
-         document.body.style.backgroundColor =color;
 
-         let txt=document.getElementsByClassName("text");
-         if(color =="#000000"){
-            for(let elm of txt){
-                elm.style.color="white";
-            }
-         }else{
-            for(let elm of txt){
-                elm.style.color="black";
-            }
-         }
-     }
- </script>
+  <script src="js/script.js"></script>
 </body>
 </html>
